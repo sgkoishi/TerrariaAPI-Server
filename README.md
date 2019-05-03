@@ -1,10 +1,12 @@
-# Terraria Server API
-[![Build status](https://ci.appveyor.com/api/projects/status/087ea1fsk231sc99/branch/general-devel?svg=true)](https://ci.appveyor.com/project/hakusaro/terrariaapi-server/branch/general-devel)
+# Terraria Server API (.NET Core)
 
-This is the Terraria Server API, the API that [TShock for Terraria](http://github.com/tshock/tshock) runs on.
+This is the .NET Core version of Terraria Server API.
 
-## Features
+## Usage
 
-* Hooks for the most used events & calls used by Terraria.
-* Runs plugins from the ServerPlugins folder.
-* Direct access to all methods inside Terraria Server itself.
+```
+git clone https://github.com/sgkoishi/TerrariaAPI-Server.git
+cd TerrariaAPI-Server/TerrariaServerAPI/
+dotnet build
+```
+Binary: `bin/Debug/netcoreapp2.1/TerrariaServerAPI.dll`
